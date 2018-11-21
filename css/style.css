@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #FBB448;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
+  background-image: 
 }
 .gtco-nav #gtco-logo em {
   color: #FBB448;
@@ -601,6 +602,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-social-icons li a i {
   font-size: 20px;
+  color: white;
 }
 
 .gtco-contact-info {
@@ -787,7 +789,7 @@ form label {
 }
 
 #gtco-features {
-  background: #FBB448;
+  background: #e2a5c4;
 }
 #gtco-features .gtco-heading h2 {
   color: #fff;
@@ -802,7 +804,7 @@ form label {
   width: 90px;
   height: 90px;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  background: #FBB448;
+  background: #c71e8d;
 }
 #gtco-features .feature-center .icon i {
   color: #fff;
@@ -994,10 +996,8 @@ form label {
 }
 
 #gtco-footer {
-  background-color: #333333;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #e2a5c4;
+  
 }
 #gtco-footer .overlay {
   position: absolute;
@@ -1005,10 +1005,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+ 
 }
 #gtco-footer .gtco-footer-links {
   padding: 0;
@@ -1038,6 +1035,22 @@ form label {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
+}
+img {
+  display: none;  
+}
+
+@media (min-width: 640px) {
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+.picture {
+
+height: 100px;
+width:120px;
 }
 #gtco-footer .gtco-widget .gtco-quick-contact {
   padding: 0;
